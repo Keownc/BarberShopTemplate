@@ -1,0 +1,11 @@
+{
+  "name": "barbershop",
+  "version": "1.0.0",
+  "description": "This is a design template for for a barber shop.",
+  "main": "server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keown Creese",
+  "license": "ISC"
+}

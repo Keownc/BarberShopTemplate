@@ -1,0 +1,570 @@
+/*
+NAME: Keown Creese
+DATE: 06/01/2016
+PROJECT: Final Project WorkPunch
+*/
+/*Colors
+#326699 - blue
+#e0e0d1 -
+#cc6666 - red
+#339966 - green
+#BBDEFB
+*/
+/*
+Font  font-family: 'Rationale', sans-serif;
+Cronos Pro
+*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font: 300/1 1.6rem "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+@import url('http://fonts.googleapis.com/css?family=Rationale');
+/* this import should be first line in css file else add as <link> in html*/
+.widget-clock.blue-light .digital {
+  text-align: center;
+}
+.widget-clock.blue-light .time {
+  font-family: 'Rationale', sans-serif;
+  font-size: 3.0em;
+  color: #1da4eb;
+}
+.thumbnail {
+     margin-bottom: 0;
+}
+h3 {
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+}
+p {
+    font-size: 1.6rem;
+}
+.alert {
+    z-index: 1000;
+}
+.arrow{
+    width: 100%;
+    text-align: center;
+}
+.list {
+    margin-top: 5rem;
+}
+.example {
+    width: 67%;
+    margin: 0 auto;
+}
+/*--------------------------------- Navigation ---------------------------------*/
+.navbar>.container .navbar-brand{
+    /*color: #e0e0d1;*/
+}
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+.navbar-nav>li>button{
+    margin-top: .8rem;
+    width: 7rem;
+    background: #;
+}
+.nav-btn {
+    color: #326699;
+     background-color: #e0e0d1;
+     border-color: #ccc;
+}
+/*  */
+.button {
+    -moz-appearance: button;
+    /* Firefox */
+    -webkit-appearance: button;
+    /* Safari and Chrome */
+    padding: 10px;
+    margin: 10px;
+    width: 70px;
+}
+.drop-box {
+    background: #F8F8F8;
+    border: 5px dashed #DDD;
+    height: 20rem;
+    text-align: center;
+    padding-top: 25px;
+    margin: 10px;
+}
+.dragover {
+    border: 5px dashed blue;
+}
+/*--------------------------------- Home Page CTA ---------------------------------*/
+#myCarousel {
+    /*position: fixed;
+    width: auto;*/
+
+}
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+.cta-btn{
+    padding: 1.2rem 6rem;
+}
+/*--------------------------------- Home Page Body ---------------------------------*/
+.body {
+    margin-top: -12rem;
+}
+#features .thumbnail {
+    padding: 3rem;
+    background-color: #326699
+}
+#features img {
+    width: 75px;
+}
+#services .thumbnail  {
+    min-height: 250px;
+    padding: .5rem 2rem
+}
+#services h3 {
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+.heading {
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    font: 5.5rem "Helvetica Neue", Helvetica, Arial sans-serif;
+    color: #505151;
+}
+#services {
+    margin-bottom: 6rem;
+}
+#services h3{
+    text-align: center;
+}
+.item {
+     background-color: #777;
+}
+/*---------------------------------  Register Form ---------------------------------*/
+
+#employee-form {
+    width: 60rem;
+}
+/*--------------------------------- Dashboard Wallpaper ---------------------------------*/
+.wallpaper  {
+    height: 340px;
+    background-color: #777;
+    font-size: 21px;
+    line-height: 1.4;
+}
+.wallpaper > img{
+    width: 100%;
+    height: 100%
+}
+.title {
+    color: #fff;
+    font-style: normal;
+}
+.avater {
+    background-color: #aeaeae;
+}
+.profile-details a {
+    /*color: #000;*/
+}
+/*--------------------------------- Dashboard sidebar ---------------------------------*/
+/* Sidebar navigation */
+.nav-sidebar {
+  margin-right: -21px; /* 20px padding + 1px border */
+  margin-bottom: 20px;
+  margin-left: -20px;
+}
+.nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #fff;
+    border-bottom: 1px solid;
+    line-height: 3;
+}
+.nav-sidebar >  a:hover,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+  color: #fff;
+  background-color:#009688;
+}
+.sidebar-heading{
+    color: #fff;
+    text-align: center;
+}
+.active {
+
+}
+/*--------------------------------- Dashboard Body ---------------------------------*/
+.page-header{
+    text-align: left;
+}
+.img-responsive {
+<<<<<<< HEAD
+    max-width: 80%;
+}
+.avatar{
+    margin-left: 2.5rem;
+=======
+    max-width: 70%;
+    margin: auto;
+>>>>>>> beta
+}
+.img-sick {
+    width: 20%;
+}
+#dashboard{
+    text-align: center;
+}
+#dashboard h2{
+    float: left;
+    width: 65%;
+    line-height: .1;
+    color: #000;
+}
+.timepunch-heading{
+    font-size: 5rem;
+    text-transform: capitalize;
+}
+.timepunch{
+    margin-top: 6rem;
+}
+span {
+    font-size: 3.5rem;
+}
+div ds-widget-clock{
+    display: inline-block;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+}
+#dashboard div p {
+    font-size: 2rem;
+    width: 50%;
+    margin: 0 auto;
+}
+#dashboard .setting p {
+    width: 100%;
+    text-align: left;
+}
+#dashboard form{
+    text-align: left;
+}
+.overtime p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+p em {
+    font-style: normal;
+    font-weight: 500;
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+.overtime h3{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+#dashboard .form-control {
+    width: 40%;
+}
+.form-textarea{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+/* Sick Leave Form*/
+.form-option {
+    width: 10%;
+    height: 3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.panel-default>.panel-heading {
+    height: 55rem;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+ text-align: left;
+}
+/*--------------------------------- Modal ---------------------------------*/
+.modal-header h3 {
+    float: left;
+    width: auto;
+}
+.modal-header button {
+    float: right;
+    width: auto;
+}
+.modal-header, .modal-body {
+    padding: 2rem 6rem 6rem 6rem;
+}
+.modal-header {
+    padding-bottom: 2rem;
+}
+/* Modal login section*/
+#modal-login{
+    width: 57%;
+    border-right: 1px solid #ccc;
+    padding-right: 4rem;
+}
+.modal-body button{
+    margin-top: 1rem;
+}
+.modal-body .form-control{
+    height: 40px;
+}
+#modal-login button{
+    width: 100%;
+    height: 40px;
+}
+#modal-login .checkbox{
+    width: 50%;
+}
+#modal-login p{
+    position: absolute;
+    left: 34rem;
+    bottom: 6rem;
+}
+/* Modal signup section*/
+#modal-signup {
+    width: 35%;
+    position: absolute;
+    top: 10%;
+    right: 3rem;
+    padding-right: 3rem;
+}
+#modal-signup button{
+    display: block;
+    width: 100%;
+    height: 40px;
+}
+.btn-employee {
+    color: #fff;
+    background-color: #326699;
+    border-color: #46b8da;
+}
+.btn-company{
+    color: #fff;
+    background-color: #339966;
+    border-color: #46b8da;
+}
+.btn-e {
+    color: #fff;
+    background-color: #607D8B;
+    border-color: #607D8B;
+}
+.btn-e:hover {
+    color: #fff;
+    background-color: #455A64;
+    border-color: #455A64;
+}
+.btn-c {
+    color: #fff;
+    background-color: #FF5722;
+    border-color: #E64A19;
+}
+.btn-c:hover {
+    color: #fff;
+    background-color: #E64A19;
+    border-color: #E64A19;
+}
+.btn-l {
+    color: #fff;
+    background-color: #009688;
+    border-color: #009688;
+}
+.btn-l:hover {
+    color: #fff;
+    background-color: #00796B;
+    border-color: #00796B;
+}
+/*--------------------------------- Footer ---------------------------------*/
+footer {
+    background: #19232d;
+    color: #d7dade; /*#d7dade*/
+}
+footer a {
+    color: #ffffff;
+}
+a:hover {
+    text-decoration: underline;
+}
+footer h2{
+    font: bold 1.6rem "Open Sans", Arial, sans-serif;
+    text-transform: uppercase;
+    border-bottom: 1px solid #253443;
+    color: #E64A19;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+#workpunch p:first-of-type {
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: #8BC34A;
+}
+#workpunch p {
+    color: #fff;
+}
+#workpunch label {
+    color: #F57C00;
+}
+#workpunch em{
+    color: #e54e53;
+}
+label {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+label[for*="submit"] {
+    display: none;
+}
+#workpunch input {
+    width: 25rem;
+    background: #f5f5f5;
+    color: #c5c7cb;
+    line-height: 1.4;
+    padding: 8px 12px;
+    display: inline;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+#workpunch button{
+    padding: 8px 12px;
+}
+#navigation {
+
+}
+#bottom-footer {
+    font-size: 1.3rem;
+    line-height: 50px;
+    background-color: #121a21;
+    color: #8d8e92;
+    clear: both;
+    margin-top: 1.5rem;
+}
+/*#bottom-footer p {
+    width: 75%;
+    float: left;
+}*/
+#bottom-footer ul {
+    text-align: left;
+    padding-left: 25px;
+}
+#bottom-footer p, #bottom-footer ul {
+    margin: 0;
+}
+#bottom-footer ul li {
+    width: 65px;
+    display: inline-block;
+    text-transform: capitalize;
+    text-align: center;
+    border-right: 1px dotted center;
+}
+#bottom-footer a {
+    color: #c5c7cb;
+}
+
+/*--------------------------------- RESPONSIVE CSS ------------------------------ */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    position: relative;
+    top: 2rem;
+    /*margin-top: 20px;*/
+    z-index: 1000;
+  }
+  .navbar-wrapper .container {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+  /* Bring the CTA and the wallpaper to the top */
+  #myCarousel , .wallpaper{
+    position: relative;
+    top: -7.1rem;
+
+  }
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+  /* wallpaper content */
+  .wallpaper .content {
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    left: 5%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6)
+  }
+  .profile-details {
+      text-align: left;
+      padding-left: 4rem;
+  }
+  .featurette-heading {
+    font-size: 50px;
+  }
+  /* Dashboard sidebar */
+  .sidebar {
+    position: relative;
+    top: -7.1rem;
+    bottom: 0;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #00796B;
+    border-right: 1px solid #eee;
+    /*height: 61.4rem;*/
+    height: 63.1rem;
+  }
+  .main {
+    position: relative;
+    top: -10.1rem;
+    bottom: 0;
+  }
+}
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
